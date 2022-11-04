@@ -1,0 +1,369 @@
+[{
+  "_id": 1,
+  "restaurantName": "Casa Bella Vista",
+  "restaurantImage": "Casa Bella Vista.jpg",
+  "location": "Chandigarh",
+  "rating": 10,
+  "cuisine": [
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "Portuguese",
+      "cuisineImage": "Portuguese.jpg"
+    },
+    {
+      "_id": "Italian",
+      "cuisineImage": "Italian.jpg"
+    },
+    {
+      "_id": "American",
+      "cuisineImage": "American.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 2,
+  "restaurantName": "The Table",
+  "restaurantImage": "The Table.jpg",
+  "location": "Mumbai",
+  "rating": 9,
+  "cuisine": [
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "Chinese",
+      "cuisineImage": "Chinese.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 3,
+  "restaurantName": "Hakassan",
+  "restaurantImage": "hakkasan.jpg",
+  "location": "Mumbai",
+  "rating": 9,
+  "cuisine": [
+    {
+      "_id": "Chinese",
+      "cuisineImage": "Chinese.jpg"
+    },
+    {
+      "_id": "American",
+      "cuisineImage": "American.jpg"
+    },
+    {
+      "_id": "Thai",
+      "cuisineImage": "Thai.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 4,
+  "restaurantName": "Indian Accent",
+  "restaurantImage": "Indian Accent.jpg",
+  "location": "New Delhi",
+  "rating": 7,
+  "cuisine": [
+    {
+      "_id": "French",
+      "cuisineImage": "french.jpg"
+    },
+    {
+      "_id": "Arabian",
+      "cuisineImage": "arabian.jpg"
+    },
+    {
+      "_id": "Thai",
+      "cuisineImage": "Thai.jpg"
+    },
+    {
+      "_id": "Spanish",
+      "cuisineImage": "Spanish.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 5,
+  "restaurantName": "Olive Qutub",
+  "restaurantImage": "Olive-Qutub.jpg",
+  "location": "New Delhi",
+  "rating": 7,
+  "cuisine": [
+    {
+      "_id": "Turkish",
+      "cuisineImage": "Turkish.jpg"
+    },
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "Thai",
+      "cuisineImage": "Thai.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 6,
+  "restaurantName": "Artusi Ristorante",
+  "restaurantImage": "Artusi-Ristorante.jpg",
+  "location": "New Delhi",
+  "rating": 9,
+  "cuisine": [
+    {
+      "_id": "Spanish",
+      "cuisineImage": "Spanish.jpg"
+    },
+    {
+      "_id": "Italian",
+      "cuisineImage": "Italian.jpg"
+    },
+    {
+      "_id": "French",
+      "cuisineImage": "french.jpg"
+    },
+    {
+      "_id": "Chinese",
+      "cuisineImage": "Chinese.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 7,
+  "restaurantName": "Toast & Tonic",
+  "restaurantImage": "Toast-&-Tonic.jpg",
+  "location": "Bengaluru",
+  "rating": 9,
+  "cuisine": [
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "Chinese",
+      "cuisineImage": "Chinese.jpg"
+    },
+    {
+      "_id": "Mexican",
+      "cuisineImage": "Mexican.jpg"
+    },
+    {
+      "_id": "Japanese",
+      "cuisineImage": "japanese.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 8,
+  "restaurantName": "Sly Granny",
+  "restaurantImage": "Sly-Granny.jpg",
+  "location": "Bengaluru",
+  "rating": 9,
+  "cuisine": [
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "Chinese",
+      "cuisineImage": "Chinese.jpg"
+    },
+    {
+      "_id": "Portuguese",
+      "cuisineImage": "Portuguese.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 9,
+  "restaurantName": "Olive Beach",
+  "restaurantImage": "Olive-Beach.jpg",
+  "location": "Bengaluru",
+  "rating": 9,
+  "cuisine": [
+    {
+      "_id": "Portuguese",
+      "cuisineImage": "Portuguese.jpg"
+    },
+    {
+      "_id": "Chinese",
+      "cuisineImage": "Chinese.jpg"
+    },
+    {
+      "_id": "Italian",
+      "cuisineImage": "Italian.jpg"
+    },
+    {
+      "_id": "Hawaiian",
+      "cuisineImage": "Hawaiian.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 10,
+  "restaurantName": "1135 AD",
+  "restaurantImage": "1135-AD.jpg",
+  "location": "Jaipur",
+  "rating": 10,
+  "cuisine": [
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "American",
+      "cuisineImage": "American.jpg"
+    },
+    {
+      "_id": "Italian",
+      "cuisineImage": "Italian.jpg"
+    },
+    {
+      "_id": "French",
+      "cuisineImage": "french.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 11,
+  "restaurantName": "Amethyst",
+  "restaurantImage": "Amethyst-cafe.jpg",
+  "location": "Rajasthan",
+  "rating": 6,
+  "cuisine": [
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "American",
+      "cuisineImage": "American.jpg"
+    },
+    {
+      "_id": "Italian",
+      "cuisineImage": "Italian.jpg"
+    },
+    {
+      "_id": "Thai",
+      "cuisineImage": "Thai.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 12,
+  "restaurantName": "A Reverie",
+  "restaurantImage": "A-Reverie.png",
+  "location": "Goa",
+  "rating": 8,
+  "cuisine": [
+    {
+      "_id": "American",
+      "cuisineImage": "American.jpg"
+    },
+    {
+      "_id": "Spanish",
+      "cuisineImage": "Spanish.jpg"
+    },
+    {
+      "_id": "Italian",
+      "cuisineImage": "Italian.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 13,
+  "restaurantName": "The Black Sheep Bistro",
+  "restaurantImage": "The Black Sheep Bistro.jpg",
+  "location": "Goa",
+  "rating": 9,
+  "cuisine": [
+    {
+      "_id": "Italian",
+      "cuisineImage": "Italian.jpg"
+    },
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "Indonesia",
+      "cuisineImage": "Indonesia.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 14,
+  "restaurantName": "Villa Maya",
+  "restaurantImage": "Villa-Maya.jpg",
+  "location": "Punjab",
+  "rating": 9,
+  "cuisine": [
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "Thai",
+      "cuisineImage": "Thai.jpg"
+    },
+    {
+      "_id": "French",
+      "cuisineImage": "french.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 16,
+  "restaurantName": "17 CAFE",
+  "restaurantImage": "17 CAFE.jpg",
+  "location": "Himachal Pradesh",
+  "rating": 10,
+  "cuisine": [
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "Chinese",
+      "cuisineImage": "Chinese.jpg"
+    },
+    {
+      "_id": "French",
+      "cuisineImage": "french.jpg"
+    },
+    {
+      "_id": "American",
+      "cuisineImage": "American.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+},{
+  "_id": 15,
+  "restaurantName": "The Bombay Canteen",
+  "restaurantImage": "The Bombay Canteen.jpg",
+  "location": "Mumbai",
+  "rating": 9,
+  "cuisine": [
+    {
+      "_id": "Indian",
+      "cuisineImage": "Indian.jpg"
+    },
+    {
+      "_id": "Portuguese",
+      "cuisineImage": "Portuguese.jpg"
+    },
+    {
+      "_id": "Italian",
+      "cuisineImage": "Italian.jpg"
+    },
+    {
+      "_id": "American",
+      "cuisineImage": "American.jpg"
+    }
+  ],
+  "_class": "com.capstone.model.Restaurant"
+}]

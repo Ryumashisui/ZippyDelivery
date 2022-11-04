@@ -1,0 +1,146 @@
+/* .card { */
+/* background-image: linear-gradient(rgb(248, 241, 191), rgb(255, 255, 255));
+     */
+/* background-color: rgb(30, 0, 255); */
+/* border-radius: 20px; */
+/* width: 380px; */
+/* margin-top: 80px; */
+/* margin-bottom: 90px; */
+/* padding: 10px; */
+/* height: 600px; */
+/* } */
+
+/* label, h2 {
+    color: black;
+} */
+
+/* .body {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/assets/Cuisines/food2.jpg);
+    background-size: cover contain;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+/* button {
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+} */
+
+/* .full-width {
+    width: 90%;
+} */
+
+/* .container1{
+   
+    
+    width: 300px;
+    height: 500px;
+    background-color: red;
+} */
+
+.sign-up-backgroud-container {
+    background-image: linear-gradient(rgba(32, 31, 31, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/Cuisines/food2.jpg);
+    background-size: cover contain;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.sign-up-container {
+    background-image: linear-gradient(rgba(255, 251, 251, 0.7),rgba(179, 179, 179, 0)),url(/assets/Cuisines/food6.jpg);
+    font-size: larger;
+    background-color:white;
+    width: 35%;
+    height:max-content;
+    padding: 20px;
+    margin-top: -50px;
+    border-radius: 10px;
+    box-shadow:rgba(0,0,0,0.25) 0px 54px 55px,
+                rgba(0,0,0,0.12) 0px -12px 30px,
+                rgba(0,0,0,0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.9) 0px -3px 5px ;
+}
+
+
+
+
+   
+
+
+.fullName-input {
+    /* background-color: aqua; */
+    width: 49%;
+}
+
+.email-input {
+    /* background-color: blueviolet; */
+    width: 49%;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-2 {
+    width: 100%;
+    /* background-color: white; */
+    align-items: center;
+}
+
+.width {
+    width: 100%;
+}
+
+.half-width {
+    width: 100%;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password {
+    /* background-color: brown; */
+    width: 49%;
+  
+}
+
+.confirm-password {
+    /* background-color: rgb(65, 165, 42); */
+    width: 49%;
+    /* font-size: large; */
+}
+
+.title {
+   display: flex;
+   justify-content: center;
+   font-size: 1.4rem;
+   line-height: 1.6rem;
+   margin-bottom: 30px;
+    
+}
+
+.signUp-button{
+    /* margin-top: 10px; */
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.login-here{
+    font-size: 1.02rem;
+    color: rgb(26, 84, 142);
+}

@@ -1,0 +1,109 @@
+
+
+<div class="sign-up-backgroud-container">
+
+
+
+  <div class="sign-up-container">
+    <div class="title">
+     Hello! Sign Up
+    </div>
+    <form [formGroup]="signUpForm" (ngSubmit)="saveUser()">
+
+
+      <div class="row-2">
+
+
+
+        <mat-form-field appearance="outline" class="width">
+          <mat-label>Full Name</mat-label>
+          <input type="text" matInput placeholder="Enter Your Name" formControlName="fullName">
+
+          <mat-error *ngIf="fullName.errors?.['minlength'] && !fullName.errors?.['required']">
+            User Need to enter atleast 3 letters
+          </mat-error>
+          <mat-error *ngIf="fullName.hasError('required')">
+            Full Name  <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+
+
+      </div>
+
+
+      <div class="row-1">
+        <div class="fullName-input">
+          <mat-form-field class="half-width" appearance="outline">
+            <mat-label>Mobile Number</mat-label>
+            <input type="tel" matInput placeholder="Mobile No" formControlName="mobileNo">
+
+            <mat-error *ngIf="mobileNo.errors?.['minlength']&& !mobileNo.hasError('required')">
+              Please Enter Minimum 10 digits
+            </mat-error>
+
+            <mat-error *ngIf="mobileNo.errors?.['maxlength']&& !mobileNo.hasError('required')">
+              maximum 10 digits Only
+            </mat-error>
+
+            <mat-error *ngIf="mobileNo.hasError('required')">
+              Mobile No is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+
+        </div>
+
+        <div class=email-input>
+          <mat-form-field class="full-width" appearance="outline" class="half-width">
+            <mat-label>Email ID</mat-label>
+            <input type="email" matInput formControlName="emailId" placeholder="Ex. xyz@*.mail.com">
+            <mat-error *ngIf="emailId.hasError('email') && !emailId.hasError('required')">
+              Please enter a valid email address
+            </mat-error>
+            <mat-error *ngIf="emailId.hasError('required')">
+              Email is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+
+
+      <div class="row-3">
+        <div class="password">
+          <mat-form-field class="half-width" appearance="outline">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput placeholder="Enter Your Password" formControlName="password">
+
+            <mat-error *ngIf="password.hasError('required')">
+              Password is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="confirm-password">
+          <mat-form-field class="half-width" appearance="outline">
+            <mat-label>Confirm Password</mat-label>
+            <input type="password" matInput placeholder="confirmPassword" formControlName="confirmPassword">
+
+            <mat-error *ngIf="confirmPassword.hasError('required')">
+              Confirm Password is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-success signUp-button " 
+          [disabled]="signUpForm.invalid">SignUp</button>
+      </div>
+
+          <div class="footer " >
+            <div>Have already Account ? </div>
+            <div ><a href="#!"
+              class="fw-bold text-body" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" class="login-here" ><u>Login here</u></a></div>
+          </div>
+    </form>
+
+  </div>
+
+</div>

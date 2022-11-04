@@ -1,0 +1,98 @@
+<div class="banner">
+</div>
+ 
+<div class="body">
+    <div class="search-container  ">
+         <div>
+            <select class="btn-lg btn-primary  dropdown"  (change)="selectChangeHandler($event)"
+                style="position: static; background-color: rgb(222, 119, 121); border-radius: 1px;" (click)="getByLocation(locationText)">
+                 
+                <option>🔎{{currentLocation}}</option>
+                <option value="0">View All</option>
+                <option>Hyderabad</option>
+                <option>Kanpur</option>
+                <option>Udaipur</option>
+                <option>Jaipur</option>
+                <option>Mumbai</option>
+                <option>Bengaluru</option>
+                <option>Mohali</option>
+                <option>Kolkata</option>
+                <option>Chennai</option>
+            </select>
+        </div>
+      
+    </div>
+   
+    <!--  this container display all the restaurants by locations and rating -->
+    <div class="container mt-4 mb-4" *ngIf="disableLocation">
+        <div class="row">
+            <div class="box col-lg-3 mt-3" *ngFor="let item of restaurantsByLocation | filter : searchBarText  | paginate: { id: 'list_pagination1',
+        itemsPerPage: 50,
+        currentPage: page,
+        totalItems: totalRecordsByLocation }">
+                <img (click)="getData(item)" src=".//src//assets//Restaurants//{{item.restaurantImage}}" alt="">
+                <mat-card-content>
+                    <mat-card-title>
+                        <h1 mat-sort-header (click)="getData(item)">{{item.restaurantName}}</h1>
+                    </mat-card-title>
+                    <p>Location : {{item.location}}</p>
+                    <p *ngIf="item.rating >= 4">Rating : <strong class="badge text-black "
+                            style="background-color: gold">
+                            {{item.rating}}☆</strong>
+                    <p *ngIf="item.rating >= 3 && item.rating < 4">Rating : <strong class="badge text-black "
+                            style="background-color: rgb(255, 243, 162);"> {{item.rating}}☆</strong>
+                    <p *ngIf="item.rating >= 1 && item.rating < 3">Rating : <strong class="badge text-black "
+                            style="background-color: rgb(254, 1, 1);"> {{item.rating}}☆</strong>
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                 
+                
+                    <i onclick="Toggle()" [style.color]="item.isFavorite ? 'red' : 'white'" id="btnh1" class="btn"><i class="fas fa-heart" (click)="addToFavourites(item); item.isFavorite = !item.isFavorite;"></i></i>
+              
+                    <!-- <script>
+                        //    First Like Button   
+                           var btnvar1 = document.getElementById('btnh1');
+                    
+                           function Toggle(){
+                                    if (btnvar1.style.color =="red") {
+                                        btnvar1.style.color = "grey"
+                                    }
+                                    else{
+                                        btnvar1.style.color = "red"
+                                    }
+                           }
+                           </script> -->
+                    <!-- <button mat-fab enables   (click)="addToFavourites(item)">
+                        <mat-icon>favorite</mat-icon>
+                      </button> -->
+                    <!-- <button id="btn" mat-raised-button color="accent" (click)="addToFavourites(item)">
+                         <mat-icon>favorite</mat-icon>
+                    </button> -->
+                    <button mat-raised-button style="background-color:rgb(73, 151, 95) "  (click)="getData(item)">View</button>
+                </mat-card-actions>
+            </div>
+        </div>
+       
+        <div class="disImage">
+            <a class="image-logo" style="padding-right: 15px;" href="https://www.facebook.com/"><img
+                src="assets/Facebook.png" width="25px" height="25px" alt=""></a>
+            <a class="image-logo" style="padding-right: 15px;" href="https://www.twitter.com/"><img
+                src="assets/Twitter.png" width="25px" height="25px" alt=""></a>
+            <a class="image-logo" style="padding-right: 15px;" href="https://www.instagram.com/"><img
+                src="assets/Instagram.png" width="25px" height="25px" alt=""></a>
+            <a class="image-logo" style="padding-right: 15px;" href="https://www.youtube.com/"><img
+                src="assets/Youtube.png" width="25px" height="25px" alt=""></a>
+            <a class="image-logo" style="padding-right: 15px;" href="https://www.whatsapp.com/"><img
+                 src="assets/Whatsapp.png" width="25px" height="25px" alt=""></a>
+
+          </div>
+
+          <div class="footer">
+             <footer>Copyright © 2022-2023 ZippyDelivery.com<br>
+            All Rights are reserved</footer>
+    </div>
+  
+
+</div> 
+

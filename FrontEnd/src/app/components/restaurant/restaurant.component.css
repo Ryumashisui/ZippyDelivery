@@ -1,0 +1,134 @@
+ .banner {
+    background-image: url(/assets/Cuisines/food1.jpg);
+     height: 500px;
+     position: static;
+     overflow-x: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+     background-position: center center;
+ }
+
+ .search-container {
+     display: flex;
+     justify-content: center;
+     padding: 5px;
+     margin: 15px;
+     position: static;
+     text-align: center;
+ }
+
+ .content {
+     top: 8%;
+     left: 20%;
+     position: static;
+     margin: 20px;
+ }
+
+ .content h1 {
+     color: rgb(19, 19, 20);
+     font-size: 40px;
+     font-weight: bold;
+     font-family: 'Merriweather', serif;
+ }
+
+ img h1 {
+     font-weight: bold;
+     color: rgb(19, 19, 20);
+ }
+
+ .container {
+     border-radius: 10px;
+ }
+
+ .body{
+     background-color: rgba(252, 148, 182, 0.583);
+  
+ }
+
+ .row img {
+     border-radius: 5px;
+     width: 200px;
+     height: 180px;
+     margin-bottom: 15px;
+     transition: 0.3s ease-in-out;
+ }
+
+ .row img:hover {
+     transition: 0.3s ease-in-out;
+     transform: scale(1.1);
+     cursor: pointer;
+ }
+
+ mat-card-actions>button {
+     margin: 5px;
+ }
+
+ select option {
+     text-align: start;
+ }
+
+ 
+.disImage{
+     text-align: center;
+  justify-content:center;
+  padding:1rem;
+   
+}
+  
+  
+
+.footer{
+    justify-content:center;
+    text-align: center;
+    padding:1rem;
+
+}
+
+
+
+/* .btn :before{
+  content: "";
+    cursor: pointer;
+    transition: background .4s;
+}
+
+.btn:after {
+    content: "";
+    cursor: pointer;
+    transition: background .4s;
+  }
+
+  .btn::before,
+.btn::after {
+  background-color: #b41341;
+}
+
+
+   */
+
+   .disImage :hover{
+    transform: translateY(-10px);
+
+   }  
+
+   .btn{
+    background: transparent;
+    border: none;
+    font-size: x-large;
+    outline: none;
+    color: grey;
+}
+ 
+.btn i:hover{
+    cursor: pointer;
+}
+
+ .btnFavirote {
+    background-color: rgb(58, 154, 238);
+ }
+
+ .btnNotFavourite {
+
+    background-color: rgb(221, 227, 232);
+
+ }
